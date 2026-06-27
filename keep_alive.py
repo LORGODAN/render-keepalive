@@ -1,7 +1,7 @@
 import requests
 from datetime import datetime
 
-URL = "https://tevetvault.onrender.com/"
+URL = "https://tevetvault.netlify.app/"
 
 try:
     response = requests.get(URL, timeout=30)
